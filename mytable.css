@@ -1,0 +1,27 @@
+/* CSS for table */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    border: 1px solid #e9d9d2; /* Add border to the table */
+}
+
+th, td {
+    padding: 10px;
+    border: 2px solid #4f4f4f;
+    text-align: left;
+}
+
+th {
+    background-color: #776969;
+}
+
+tr:nth-child(even) {
+    background-color: #847f7f;
+}
+
+tr:hover {
+    background-color: #7a7c88; /* Highlight row on hover */
+}
+
+

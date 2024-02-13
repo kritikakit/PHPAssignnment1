@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Employee Information</title>
+    <link rel="stylesheet" href="para.css"> <!--link to css file-->
+</head>
+<body>
+    <header> <!--Header section-->
+        <div class="container">
+            <div class="logo">
+            </div>
+            <nav>  <!--Navigation section-->
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>  <!--Main content section-->
+        <div class="container">
+            <h1 align:center><i>Add Employee Information</i></h1>
+            <form action="View.php" method="POST"> <!--Form for adding employee information-->
+                User ID<input type="text" name="uid"><br>
+                Name<input type="text" name="uname"><br>
+                Email<input type="text" name="email"><br>
+                Age: <input type="number" name="age"><br>
+                Phone Number: <input type="text" name="phone"><br>
+
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </main>
+    <footer>  <!--Footer section-->
+        <div class="container">
+            <p>&copy; 2024 TIG Services</p> <!--copyright information-->
+        </div>
+    </footer>
+</body>
+</html>
